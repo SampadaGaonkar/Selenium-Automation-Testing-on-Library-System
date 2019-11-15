@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Library System Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MYTest-1(failed)">
+    <parameter name="password" value="abc12345"/>
+    <parameter name="num" value="9866628799"/>
+    <parameter name="name" value="test"/>
+    <parameter name="url" value="http://localhost/Library/add.html"/>
+    <parameter name="email" value="test@yahoo.com"/>
+    <classes>
+      <class name="Library.home">
+        <methods>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="TestCase1"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- Library.home -->
+      <class name="Library.login">
+        <methods>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TestCase4"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- Library.login -->
+      <class name="Library.browse">
+        <methods>
+          <include name="startReport"/>
+          <include name="Testcase11"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TestCase10"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- Library.browse -->
+    </classes>
+  </test> <!-- MYTest-1(failed) -->
+</suite> <!-- Failed suite [Library System Testing] -->

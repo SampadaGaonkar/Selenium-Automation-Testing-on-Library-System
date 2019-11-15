@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="21" passed="9" failed="3" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-04T13:42:08 IST" name="Library System Testing" finished-at="2019-11-04T13:47:28 IST" duration-ms="320445">
+    <groups>
+      <group name="main">
+        <method signature="login.TestCase6()[pri:1, instance:Library.login@769f71a9]" name="TestCase6" class="Library.login"/>
+        <method signature="login.Testcase5()[pri:1, instance:Library.login@769f71a9]" name="Testcase5" class="Library.login"/>
+      </group> <!-- main -->
+    </groups>
+    <test started-at="2019-11-04T13:42:08 IST" name="MYTest-1" finished-at="2019-11-04T13:47:28 IST" duration-ms="320445">
+      <class name="Library.browse">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:44:29 IST" name="setup" finished-at="2019-11-04T13:44:57 IST" duration-ms="27611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase10()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:44:57 IST" name="TestCase10" finished-at="2019-11-04T13:44:58 IST" duration-ms="1106" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at org.testng.Assert.assertEquals(Assert.java:761)
+at Library.browse.TestCase10(browse.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase10 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:44:58 IST" name="getResult" finished-at="2019-11-04T13:44:59 IST" duration-ms="1535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase10 status=FAILURE method=browse.TestCase10()[pri:0, instance:Library.browse@5ae50ce6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:44:59 IST" name="tearDown" finished-at="2019-11-04T13:45:12 IST" duration-ms="12752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:45:12 IST" name="setup" finished-at="2019-11-04T13:45:21 IST" duration-ms="8897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase8()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:45:21 IST" name="TestCase8" finished-at="2019-11-04T13:45:22 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:45:22 IST" name="getResult" finished-at="2019-11-04T13:45:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase8 status=SUCCESS method=browse.TestCase8()[pri:0, instance:Library.browse@5ae50ce6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:45:22 IST" name="tearDown" finished-at="2019-11-04T13:45:58 IST" duration-ms="35674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:45:58 IST" name="setup" finished-at="2019-11-04T13:46:05 IST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Testcase11()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:05 IST" name="Testcase11" finished-at="2019-11-04T13:46:05 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+at Library.browse.Testcase11(browse.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase11 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:05 IST" name="getResult" finished-at="2019-11-04T13:46:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testcase11 status=SKIP method=browse.Testcase11()[pri:0, instance:Library.browse@5ae50ce6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:05 IST" name="tearDown" finished-at="2019-11-04T13:46:11 IST" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:11 IST" name="setup" finished-at="2019-11-04T13:46:35 IST" duration-ms="24022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Testcase9()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:35 IST" name="Testcase9" finished-at="2019-11-04T13:46:41 IST" depends-on-methods="Library.browse.TestCase8" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase9 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:41 IST" name="getResult" finished-at="2019-11-04T13:46:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testcase9 status=SUCCESS method=browse.Testcase9()[pri:0, instance:Library.browse@5ae50ce6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.browse@5ae50ce6]" started-at="2019-11-04T13:46:41 IST" name="tearDown" finished-at="2019-11-04T13:46:55 IST" duration-ms="14489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Library.browse -->
+      <class name="Library.register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.register@4c9f8c13]" started-at="2019-11-04T13:44:09 IST" name="setup" finished-at="2019-11-04T13:44:16 IST" duration-ms="6836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase7(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Library.register@4c9f8c13]" started-at="2019-11-04T13:44:16 IST" name="TestCase7" finished-at="2019-11-04T13:44:24 IST" duration-ms="7692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/Library/add.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9866628799]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.register@4c9f8c13]" started-at="2019-11-04T13:44:24 IST" name="getResult" finished-at="2019-11-04T13:44:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase7 status=SUCCESS method=register.TestCase7(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Library.register@4c9f8c13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.register@4c9f8c13]" started-at="2019-11-04T13:44:24 IST" name="tearDown" finished-at="2019-11-04T13:44:29 IST" duration-ms="4985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Library.register -->
+      <class name="Library.update">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.update@6f96c77]" started-at="2019-11-04T13:46:55 IST" name="setup" finished-at="2019-11-04T13:47:02 IST" duration-ms="6713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Testcase12()[pri:1, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:02 IST" name="Testcase12" finished-at="2019-11-04T13:47:09 IST" duration-ms="7229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase12 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:09 IST" name="getResult" finished-at="2019-11-04T13:47:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testcase12 status=SUCCESS method=update.Testcase12()[pri:1, instance:Library.update@6f96c77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:09 IST" name="tearDown" finished-at="2019-11-04T13:47:12 IST" duration-ms="2805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:12 IST" name="setup" finished-at="2019-11-04T13:47:19 IST" duration-ms="6738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase13()[pri:2, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:19 IST" name="TestCase13" finished-at="2019-11-04T13:47:25 IST" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase13 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:25 IST" name="getResult" finished-at="2019-11-04T13:47:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase13 status=SUCCESS method=update.TestCase13()[pri:2, instance:Library.update@6f96c77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.update@6f96c77]" started-at="2019-11-04T13:47:25 IST" name="tearDown" finished-at="2019-11-04T13:47:27 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Library.update -->
+      <class name="Library.login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:31 IST" name="setup" finished-at="2019-11-04T13:43:37 IST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase4()[pri:1, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:37 IST" name="TestCase4" finished-at="2019-11-04T13:43:43 IST" duration-ms="5807" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://localhost/Library/login.html] but found [http://localhost/Library/login.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://localhost/Library/login.html] but found [http://localhost/Library/login.php]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Library.login.TestCase4(login.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:43 IST" name="getResult" finished-at="2019-11-04T13:43:43 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase4 status=FAILURE method=login.TestCase4()[pri:1, instance:Library.login@769f71a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:43 IST" name="tearDown" finished-at="2019-11-04T13:43:46 IST" duration-ms="2617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:46 IST" name="setup" finished-at="2019-11-04T13:43:53 IST" duration-ms="6783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase6()[pri:1, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:53 IST" name="TestCase6" finished-at="2019-11-04T13:43:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:53 IST" name="getResult" finished-at="2019-11-04T13:43:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase6 status=SUCCESS method=login.TestCase6()[pri:1, instance:Library.login@769f71a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:53 IST" name="tearDown" finished-at="2019-11-04T13:43:58 IST" duration-ms="5516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:43:58 IST" name="setup" finished-at="2019-11-04T13:44:06 IST" duration-ms="7306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Testcase5()[pri:1, instance:Library.login@769f71a9]" started-at="2019-11-04T13:44:06 IST" name="Testcase5" finished-at="2019-11-04T13:44:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:44:06 IST" name="getResult" finished-at="2019-11-04T13:44:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testcase5 status=SUCCESS method=login.Testcase5()[pri:1, instance:Library.login@769f71a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.login@769f71a9]" started-at="2019-11-04T13:44:06 IST" name="tearDown" finished-at="2019-11-04T13:44:09 IST" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Library.login -->
+      <class name="Library.home">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:08 IST" name="startReport" finished-at="2019-11-04T13:42:08 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:08 IST" name="setup" finished-at="2019-11-04T13:42:25 IST" duration-ms="16564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:25 IST" name="TestCase1" finished-at="2019-11-04T13:42:25 IST" duration-ms="408" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title does not match expected [LIBRARY HOUSE] but found [LIBRARY]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title does not match expected [LIBRARY HOUSE] but found [LIBRARY]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at Library.home.TestCase1(home.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:26 IST" name="getResult" finished-at="2019-11-04T13:42:27 IST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1 status=FAILURE method=home.TestCase1()[pri:0, instance:Library.home@49b0b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:27 IST" name="tearDown" finished-at="2019-11-04T13:42:33 IST" duration-ms="6697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:33 IST" name="setup" finished-at="2019-11-04T13:42:40 IST" duration-ms="6985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase2()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:40 IST" name="TestCase2" finished-at="2019-11-04T13:42:43 IST" duration-ms="2681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:43 IST" name="getResult" finished-at="2019-11-04T13:42:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase2 status=SUCCESS method=home.TestCase2()[pri:0, instance:Library.home@49b0b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:43 IST" name="tearDown" finished-at="2019-11-04T13:42:47 IST" duration-ms="4152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:47 IST" name="setup" finished-at="2019-11-04T13:42:54 IST" duration-ms="6754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase3()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:54 IST" name="TestCase3" finished-at="2019-11-04T13:42:57 IST" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:57 IST" name="getResult" finished-at="2019-11-04T13:42:57 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase3 status=SUCCESS method=home.TestCase3()[pri:0, instance:Library.home@49b0b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:42:57 IST" name="tearDown" finished-at="2019-11-04T13:43:31 IST" duration-ms="33307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Library.home@49b0b76]" started-at="2019-11-04T13:47:27 IST" name="endReport" finished-at="2019-11-04T13:47:28 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Library.home -->
+    </test> <!-- MYTest-1 -->
+  </suite> <!-- Library System Testing -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Library System Testing">
+<test name="MYTest-1">
+
+<parameter name="url" value="http://localhost/Library/add.html"></parameter>
+<parameter name="name" value="test"></parameter>
+<parameter name="num" value="9866628799"></parameter>
+<parameter name="email" value="test@yahoo.com"></parameter>
+<parameter name="password" value="abc12345"></parameter>
+
+
+<classes>
+<class name ="Library.home"></class>
+<class name ="Library.login"></class>
+<class name ="Library.register"></class>
+<class name ="Library.browse"></class>
+<class name ="Library.update"></class>
+
+</classes>
+
+</test>
+
+</suite>
+
+
+
+ 

@@ -1,0 +1,110 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" href="form.css" type="text/css">
+
+	<script>
+		
+function valdiate(){
+	var name=document.getElementById("name").value;
+	var num=document.getElementById('num').value;
+	var password=document.getElementById('password').value;
+	var email=document.getElementById('email').value;
+	var gender=document.getElementsByName('Gender');
+	var aggree=document.getElementById("aggree");
+	var city=document.getElementById("city");
+	var city=document.getElementById("state");
+
+	var regexname=/^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$/;
+		console.log(name);
+	if(regexname.test(name)== false){
+		alert("Enter proper name.");
+		return false;
+	}
+
+	var regexnumber=/[9786]{1}[0-9]{9}/
+	if(regexnumber.test(num)==false){
+		alert("Enter proper phone number.");
+		return false;
+	}
+	var regexpassword=/^.{6,10}$/
+	if(regexpassword.test(password)== false){
+		alert("Password should be between 6-10 chracters.");
+		return false;
+	}
+	var regxemail=/\w+@[a-zA-Z]+\.[a-zA-Z]{2,}$/
+	if(regxemail.test(email)== false){
+		alert ("Enter email in proper format");
+		return false;
+	}
+	if(gender[0].checked== true ){
+		alert("Gender is male")
+	}
+	else if(gender[1].checked ==true)
+	{
+		alert("Gender is female");
+		
+	}
+	
+	if(aggree.checked==false){
+		alert("Agree Terms and Conditions");
+		return false;
+		}
+		
+}
+	</script>
+
+</head>
+<body>
+	<div class="header">
+		<img src = "index.jpg" width=150, height= 120>
+  <h1 style="font-size:270%;">LIBRARY HOUSE</h1>
+</div>
+	<div class="form">
+<form method="post" onsubmit="return valdiate()" action="add.php" name="form1">
+<center>
+<fieldset disable><legend >Registration</legend>
+	<p align="left">UserName:          <input type="text" name="name" id="name" required>
+	<p align="left">Mobile:            <input type="text" name="num" id="num" required>
+	<p align="left">Email :             <input type="text" name="email" id="email" required>
+	<p align="left">Password :          <input type="Password" name="password" id="password" required>
+	
+
+	<p align="left">Gender:
+	Male <input type="radio" name="gender" id="male"> <space size= "30">
+	Female <input type="radio" name="gender" id="female">
+
+
+		<p align="left">city:<select type="text" value="" name="city" required>
+  	<option value="a">Pune</option>
+  	<option value="b">Surat</option>
+  	<option value="c">Ahemadnagar</option>
+  	<option value="d">Mumbai</option>
+	</select> 
+	
+	
+		<p align="left">State:<select type="text" value="" name="state" required >
+  	<option value="a">Maharashtra</option>
+  	<option value="b">Gujrat</option>
+  	</select> 
+
+	
+		<p align="left">Favourite authors:<p>
+	<input type="text" size=30 name="message" >
+	</textarea>
+
+
+		<p align="center">I agree to the terms and conditions.<input type="checkbox" id="aggree">
+			<p><p>
+	<input type="submit" name="submit" value="submit" align="center">
+
+	
+	
+</center>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

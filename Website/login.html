@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+<link rel="stylesheet" href="form_login.css" type="text/css">
+</head>
+   <script >
+      function valdiate(){
+             var email=document.getElementById('email').value;
+             var password=document.getElementById('password').value;
+   
+   var regxemail=/\w+@[a-zA-Z]+\.[a-zA-Z]{2,}$/
+   if(regxemail.test(email)== false){
+      alert ("Enter email in proper format");
+      return false;}
+      var regexpassword=/^.{6,10}$/
+   if(regexpassword.test(password)== false){
+      alert("Password should be between 6-10 chracters.");
+      return false;
+   }
+
+}
+
+
+   </script>
+   <body>
+   	<div class="header">
+		<img src = "index.jpg" width=150, height= 120>
+  <h1 style="font-size:270%;">LIBRARY HOUSE</h1>
+</div>
+<div class="form">
+<form method="post" onsubmit="return valdiate()" action="login.php" name="form">
+<center>
+<fieldset disable><legend >Login</legend>
+  
+   <p align="left">Email :             <input type="text" name="email" id="email" required>
+   <p align="left">Password :          <input type="Password" name="password" id="password" required>
+   
+   
+
+                  <input type = "submit" value = "submit " name="submit">
+               </form>
+             
+					
+            </div>
+				
+         </div>
+</body>
+</html>
